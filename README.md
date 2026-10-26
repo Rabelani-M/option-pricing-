@@ -29,12 +29,3 @@ Evaluated at parameters: $S_0 = 100$, $K = 105$, $T = 1.0$, $r = 0.05$, $\sigma 
 | Delta ($\Delta$) | 0.5248 | 0.5251 | — |
 | Vega ($\mathcal{V}$) | 37.5240 | 37.5312 | — |
 
-## Repository Layout
-```text
-├── src/
-│   ├── black_scholes.py   # Analytical BSM formulas & Greeks
-│   ├── engine.py          # Vectorized GBM simulator with antithetic sampling
-│   └── greeks.py          # Central finite difference numerical estimators
-├── main.py                # Driver script running benchmarks and convergence checks
-├── requirements.txt       # Dependency specifications
-└── README.md              # Technical documentation and mathematical proof
